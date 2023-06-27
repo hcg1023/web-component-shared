@@ -21,7 +21,8 @@ class CustomCssSlottedElement extends HTMLElement {
         </style>
         <div class="container">
             <header><slot name="header"></slot></header>
-            <main><slot></slot></main>
+            <main>
+            <div><slot></slot></div></main>
         </div>
         `
     }

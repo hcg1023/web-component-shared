@@ -12,8 +12,12 @@ class CustomCssHostContextElement extends HTMLElement {
         :host-context(html[theme="dark"]) div{
             background: #000;
         }
+        :host-context(html[theme="dark"]) span{
+            background: #887575;
+        }
         </style>
         <div>custom-css-host</div>
+        <span>custom-css-host-span</span>
         `
     }
 }

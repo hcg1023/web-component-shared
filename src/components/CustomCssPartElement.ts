@@ -5,13 +5,11 @@ class CustomCssPartElement extends HTMLElement {
         const shadowRoot = this.attachShadow({ mode: 'open' })
 
         shadowRoot.innerHTML = `
-        <style>
-        </style>
         <div class="container">
             <header part="header">header</header>
             <main part="main">
-            <b>main</b>
-</main>
+                <b>main</b>
+            </main>
         </div>
         `
     }
